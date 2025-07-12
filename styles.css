@@ -1,0 +1,123 @@
+**::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color:#2c2f48;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position:relative;
+  padding:4rem;
+  overflow: auto;
+}
+
+.container{
+    font-size: 1rem;
+    
+    background-color:#1f1f1f;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    width: 320px;
+    position: absolute;
+   padding:2rem 1.5rem;
+    height:auto;
+    margin:1.5rem;
+    
+}
+
+.socials ul{
+  padding:0;
+}
+
+.socials ul li{
+    list-style:none;
+    margin:10px 0;
+     margin-bottom: 1rem;
+
+}
+
+.socials ul li a{
+text-decoration: none;
+border-radius: 10px;
+background-color: rgb(157, 100, 237);
+color:#fff;
+text-align: center;
+padding:10px;
+margin-top:10px;
+margin-bottom: 10px;
+width:10rem;
+font-weight: 200;
+display: inline-block;
+border: 2px solid rgb(17, 17, 250);
+ transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+.socials  li a:hover{
+    background-color: blue;
+    cursor:pointer;
+    transform: scale(1.05);
+    color: #1f1f1f;
+    font-weight: 600;
+
+}
+
+h1{
+    font-weight: 600;
+    margin: 10px;
+}
+
+#logo{
+    object-fit: cover;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:10px;
+
+
+ 
+}
+
+@media (max-width:768px){
+    .container{
+        max-width:90%;
+        padding:20px;
+        height:auto;
+    }
+
+    .socials ul li a {
+       width: 100%;
+  max-width: 260px;
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+}
+
+
+h1{
+        font-size: 1.2rem;
+
+}
+
+.socials i {
+    margin-right:8px;
+}
+
